@@ -1,0 +1,52 @@
+/*   
+   Big tablet to 1280px (width smaller than the 1148px row).
+*/
+@media only screen and (max-width: 1200px){
+
+    .hero-text-box{
+
+         width: 100%;        
+       padding: 0 2%; 
+    }
+
+    .row{
+        padding: 0 2%;
+
+    }
+}
+    
+     
+    
+    
+    
+    /* These rules apply over the screen having size between 768px to 1023px  
+       small tablet to big tablet.
+    */
+    
+    @media only screen and (max-width: 1023px){
+    
+        body{ font-size: 18px;}
+        section{ padding: 60px 0; }
+
+        .long-copy{          
+            
+            width: 80%;    /* for centeralized width 80% and left , right margin 10% make it center  */
+            margin-left: 10%;            
+        }
+    }
+    
+    
+    /* These rules apply over the screen having size between 481px to 767px.  
+       small phones to small tablets.
+    */
+    @media only screen and (max-width: 767px){
+    
+    }
+    
+    
+    /* These rules apply over the screen having size between 0px to 480px  
+       for small phones
+    */
+    @media only screen and (max-width: 480px){
+    
+    }
