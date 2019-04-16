@@ -14,11 +14,7 @@
 
     }
 }
-    
-     
-    
-    
-    
+  
     /* These rules apply over the screen having size between 768px to 1023px  
        small tablet to big tablet.
     */
@@ -33,6 +29,46 @@
             width: 80%;    /* for centeralized width 80% and left , right margin 10% make it center  */
             margin-left: 10%;            
         }
+
+        .steps-box{ margin-top: 10px;}
+
+        .steps-box:last-child{    
+            margin-top: 10px;
+          
+        }
+
+
+        .work-step{ margin-bottom: 40px;}
+        
+       
+        .work-step:last-of-type{
+            margin-bottom: 60px;
+            }
+
+        .app-screen{
+            width: 50%;
+        }
+
+        .icon-small{
+            width:20px;
+        }
+
+        .city-feature{
+            font-size: 90%;
+        }
+
+        .plan-box{
+            width: 100%;
+            margin-left: 0%;
+        }
+
+        .plan-price{
+            font-size: 250%;
+        }
+
+        .contact-form{
+            width: 80%;
+        }
     }
     
     
@@ -40,7 +76,48 @@
        small phones to small tablets.
     */
     @media only screen and (max-width: 767px){
-    
+
+        body{ font-size: 16px; }
+        section{ padding: 30px 0;}
+
+        .row,
+        .hero-text-box{
+            padding: 0 4%;
+        }
+
+        .col{ width: 100%;}
+        .main-nav{ display: none;}
+
+        h1{font-size: 180%;}
+        h2{font-size: 150%;}
+
+        .long-copy{
+            width: 100%;
+            margin-left: 0%;
+        }
+
+        .work-step{ margin-bottom: 20px;}
+        
+       
+        .work-step:last-of-type{
+            margin-bottom: 40px;
+            }
+
+            .work-step div {       
+               
+                height: 30px;
+                width: 40px;
+                text-align: center;
+                padding: 1px;
+                float: left;
+                font-size: 120%;
+                margin-right: 25px;
+
+            } 
+            
+            .steps-box:first-child {
+                text-align: center;
+            }
     }
     
     
@@ -48,5 +125,6 @@
        for small phones
     */
     @media only screen and (max-width: 480px){
-    
+           
+
     }
